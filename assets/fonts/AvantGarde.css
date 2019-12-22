@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'AvantGarde';
+    src: url('fonts/AvantGardeBook.eot');
+    src: url('fonts/AvantGardeBook.eot?#iefix') format('embedded-opentype'),
+         url('fonts/AvantGardeBook.woff2') format('woff2'),
+         url('fonts/AvantGardeBook.woff') format('woff'),
+         url('fonts/AvantGardeBook.ttf')  format('truetype'),
+         url('fonts/AvantGardeBook.svg#AvantGarde') format('svg');
+}

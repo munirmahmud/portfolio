@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std';
+    src: url('fonts/ITCAvantGardeStd-Bold.eot');
+    src: url('fonts/ITCAvantGardeStd-Bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ITCAvantGardeStd-Bold.woff2') format('woff2'),
+         url('fonts/ITCAvantGardeStd-Bold.woff') format('woff'),
+         url('fonts/ITCAvantGardeStd-Bold.ttf')  format('truetype'),
+         url('fonts/ITCAvantGardeStd-Bold.svg#ITC Avant Garde Gothic Std') format('svg');
+}

@@ -1,0 +1,208 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+}
+
+@media (min-width: 992px) {
+    .service-wrapper {
+        margin-bottom: 82px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+}
+
+@media (max-width: 992px) {
+    .header {
+        padding: 15px 0;
+    }
+    .header .navbar {
+        justify-content: flex-end;
+    }
+    .navbar-toggler:focus {
+        outline: none;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        padding: 12px 0px;
+    }
+    .navbar-light .navbar-nav li.nav-item:after {
+        content: '';
+        background: transparent;
+    }
+    .navbar-light .navbar-toggler {
+        background: #fff;
+    }
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .contact-info-wrapper .icon i {
+        margin-right: 20px;
+    }
+    .contact-info span {
+        font-size: 15px;
+    }
+    .icon i {
+        font-size: 25px;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+    .contact-info-wrapper .icon i {
+        margin-right: 25px;
+    }
+    .client-info {
+        justify-content: center;
+    }
+    .portfolio-menu {
+        margin-top: 0;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .portfolio-menu ul li {
+        display: inline-block;
+        margin: 0 8px;
+    }
+    .about-content {
+        width: 100%;
+    }
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .icon i {
+        font-size: 30px;
+        width: 75px;
+        height: 75px;
+        line-height: 75px;
+    }
+    .contact-info-wrapper .icon i {
+        margin-right: 20px;
+    }
+    .contact-info h5 {
+        margin-bottom: 10px;
+    }
+    .portfolio-menu {
+        margin-top: 0;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .portfolio-menu ul li {
+        display: inline-block;
+        margin: 0 8px;
+    }
+    .about .row {
+        align-items: flex-end;
+    }
+    .about-content {
+        width: 100%;
+        left: 0px;
+    }
+    .about-skill {
+        right: 0px;
+        width: 100%;
+    }
+    .about-pic {
+        margin-bottom: 30px;
+    }
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .contact-info-wrapper {
+        margin-bottom: 30px;
+    }
+    .testimonial-content {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .testimonial-content:before {
+        left: 0;
+        top: -24px;
+    }
+    .testimonial-content:after {
+        right: -40px;
+        bottom: -15px;
+    }
+    .testimonial-content.text-white {
+        text-align: left !important;
+    }
+    .portfolio-menu {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .portfolio-menu ul li {
+        display: inline-block;
+        margin-bottom: 0px;
+        margin-right: 10px;
+    }
+    .portfolio-menu ul li a {
+        font-size: 16px;
+        text-align: center;
+    }
+    .heading {
+        margin-bottom: 40px;
+    }
+    .experience-heading {
+        margin-bottom: 30px;
+    }
+    .experience-heading.left:after, 
+    .experience-heading.right::before {
+        background: transparent;
+        width: 0;
+        height: 0;
+    }
+    .experience-heading.left {
+        text-align: left;
+    }
+    .experience-heading.right {
+        padding-left: 0;
+        text-align: left;
+    }
+    .experience-details.right p {
+        padding-left: 0;
+    }
+    .experience-details.left {
+        padding: 0;
+        text-align: left;
+    }
+    .col-reverse {
+        flex-direction: column-reverse;
+    }
+    .about-pic {
+        margin-bottom: 30px;
+    }
+    .about-content {
+        width: 100%;
+        left: 0px;
+        text-align: center;
+    }
+    .about-skill {
+        right: 0px;
+        width: 100%;
+    }
+    .contact-info-wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+    .contact-info-wrapper .icon {
+        margin-bottom: 20px;
+    }
+    .contact-info-wrapper .icon i {
+        margin: 0;
+    }
+    .contact-info h5 {
+        margin-bottom: 10px;
+    }   
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
