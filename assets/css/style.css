@@ -383,25 +383,23 @@ nav.navbar {
 	line-height: 1.2;
     margin-bottom: 4px;
 }
+.testimonial-content:before,
+.testimonial-content:after {
+    content: '';
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 33px;
+    height: 20px;
+}
 .testimonial-content:before {
-	content: '';
-	position: absolute;
 	background-image: url('../img/quote-left.png');
-	ackground-repeat: no-repeat;
-	background-position: left;
-	width: 33px;
-	height: 20px;
+    background-position: left;
 	left: 95px;
 	top: -18px;
 }
 .testimonial-content:after {
-    content: '';
-    position: absolute;
     background-image: url('../img/quote-right.png');
-    background-repeat: no-repeat;
-    background-position: left;
-    width: 33px;
-    height: 20px;
+    background-position: right;
     right: 34px;
     bottom: -8px;
 }
