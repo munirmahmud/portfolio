@@ -2307,3 +2307,44 @@ D. Plugins Styles
     min-height: 70px;
     padding: 15px;
 }
+.navbar-light .navbar-toggler {
+    color: rgb(204, 214, 246);
+    border-color: rgb(204, 214, 246);
+    font-size: 25px;
+}
+
+@media (max-width: 1170px) {
+    .portfolio .col-md-7,
+    .portfolio .col-md-5  {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .project-content .project-details {
+        left: initial;
+        max-width: 632px;
+    }
+}
+@media (max-width: 992px) {
+    .project-content .project-details {
+        max-width: 100%;
+        width: 100%;
+    }
+    .hero h1 {
+        font-size: 52px;
+    }
+    .hero h2 {
+        font-size: 62px;
+    }
+    .social-icons {
+        left: 5px;
+    }
+    .navbar-collapse {
+        position: absolute;
+        top: 45px;
+        width: 100%;
+    }
+    .navbar-toggler {
+        position: absolute;
+        right: 0;
+    }
+}

@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="author" content="ThemeStarz">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/solid.min.css">
+    <link rel="stylesheet" href="assets/css/brands.min.css">
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/odometer-theme-default.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 	<title>Portfolio - Personal Website</title>
@@ -27,17 +28,17 @@
 
         <!--NAVIGATION ******************************************************************************************-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-            <div class="container">
+            <div class="container position-relative">
                 <a class="navbar-brand position-absolute pb-0 z-index__1 scroll" href="#page-top">
                     <img src="assets/img/logo.png" alt="">
                 </a>
                 <!--end navbar-brand-->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav" aria-controls="myNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="fas fa-bars"></span>
                 </button>
                 <!--end navbar-toggler-->
                 <div class="collapse navbar-collapse" id="myNav">
-                    <div class="navbar-nav d-block d-lg-flex ml-auto text-right">
+                    <div class="navbar-nav d-block d-lg-flex ml-auto text-left text-xl-right">
                         <a class="nav-item nav-link active scroll" href="#page-top">Home <span class="sr-only">(current)</span></a>
                         <a class="nav-item nav-link scroll" href="#about-me">About Me</a>
                         <a class="nav-item nav-link scroll" href="#portfolio">Portfolio</a>
@@ -142,7 +143,7 @@
             <!-- End of About Me ***********************************************************************************-->
 
             <!-- Where I've Worked ***********************************************************************************-->
-            <section id="portfolio" class="block pb-4">
+            <section id="portfolio" class="portfolio block pb-4">
                 <div class="container">
                     <div class="title text-left">
                         <h2>Some Things I've Built</h2>
@@ -150,13 +151,13 @@
                     <!--end title-->
 
                     <div class="row align-items-center mb-100">
-                        <div class="col-xl-7">
-                            <div class="project">
+                        <div class="col-xl-7 col-md-7">
+                            <div class="project mb-5">
                                 <img src="assets/img/projects/tovina.jpg" alt="Project Item">
                             </div>
                         </div>
-                        <div class="col-xl-5">
-                            <div class="project-content text-right position-relative">
+                        <div class="col-xl-5 col-md-5">
+                            <div class="project-content text-xl-right position-relative">
                                 <span>Featured Project</span>
                                 <a href="https://munirmahmud.github.io/tovina/">Multipage Business Website</a>
                                 <div class="project-details">
@@ -177,7 +178,7 @@
                     </div>
                     <div class="row align-items-center mb-100">
                         <div class="col-xl-5">
-                            <div class="project-content text-left position-relative">
+                            <div class="project-content text-left position-relative mb-5">
                                 <span>Featured Project</span>
                                 <a href="https://munirmahmud.github.io/transbo/">One Page Transport App</a>
                                 <div class="project-details">
@@ -201,9 +202,35 @@
                             </div>
                         </div>
                     </div>
+                    <div class="row align-items-center mb-100">
+                        <div class="col-xl-7 col-md-7">
+                            <div class="project mb-5">
+                                <img src="assets/img/projects/modal.jpg" alt="Modal Item">
+                            </div>
+                        </div>
+
+                        <div class="col-xl-5 col-md-5">
+                            <div class="project-content text-xl-right position-relative">
+                                <span>JavaScript Project</span>
+                                <a href="https://munirmahmud.github.io/modal/">Custom Modal</a>
+                                <div class="project-details">
+                                    <p>This is a cool modal component with no framework or plugin only JavaScript and Bootstrap. It shows from top to in the moddle of the document with cool effect. And it is also responsive. You can also view the codes from github. </p>
+                                </div>
+                                <ul class="technologies">
+                                    <li>Bootstrap</li>
+                                    <li>CSS3</li>
+                                    <li>JavaScript</li>
+                                </ul>
+                                <ul class="project-link">
+                                    <a href="https://github.com/munirmahmud/modal" title="Github"><i class="fab fa-github"></i></a>
+                                    <a href="https://munirmahmud.github.io/modal/" target="_blank" title="External"><i class="fas fa-external-link-alt"></i></a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
-            <!-- End of Where worked ***********************************************************************************-->
+            <!-- End of portfolio ***********************************************************************************-->
 
             <!--MY SERVICES ***********************************************************************************-->
             <section id="my-services" class="block xs-text-center pb-0">
@@ -436,17 +463,16 @@
     <!--end page-->
 
 	<script src="assets/js/custom.hero.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/popper.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery-3.3.1.min.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/imagesloaded.pkgd.min.js"></script>
 	<script src="assets/js/isInViewport.jquery.js"></script>
 	<script src="assets/js/jquery.magnific-popup.min.js"></script>
 	<script src="assets/js/scrolla.jquery.min.js"></script>
 	<script src="assets/js/jquery.validate.min.js"></script>
 	<script src="assets/js/jquery-validate.bootstrap-tooltip.min.js"></script>
-	<script src="assets/js/odometer.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+	<script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/custom.js"></script>
 
 </body>
