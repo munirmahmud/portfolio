@@ -2290,10 +2290,10 @@ D. Plugins Styles
 .technologies li:not(:last-child) {
     margin-right: 14px;
 }
-.project-link a {
+.project-link li a {
     display: inline-block;
 }
-.project-link a:not(:last-child) {
+.project-link li a:not(:last-child) {
     margin-right: 15px;
 }
 .project-link {
